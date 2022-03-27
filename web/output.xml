@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220327 14:53:51.037" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\hodze\.vscode\extensions\robocorp.robotframework-lsp-0.42.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Given that I searched for &quot;Iphone&quot; on Amazon Brazil">
+<msg timestamp="20220327 14:53:51.574" level="FAIL">No keyword with name 'Given that I searched for "Iphone" on Amazon Brazil' found.</msg>
+<status status="FAIL" starttime="20220327 14:53:51.574" endtime="20220327 14:53:51.574"/>
+</kw>
+<kw name="Then I am able to see the amount of results searched">
+<status status="NOT RUN" starttime="20220327 14:53:51.576" endtime="20220327 14:53:51.576"/>
+</kw>
+<kw name="And count the itens that starts with &quot;Iphone&quot;">
+<status status="NOT RUN" starttime="20220327 14:53:51.577" endtime="20220327 14:53:51.577"/>
+</kw>
+<kw name="And check if those are at least 30% of the total of the resutls shown">
+<status status="NOT RUN" starttime="20220327 14:53:51.578" endtime="20220327 14:53:51.578"/>
+</kw>
+<status status="PASS" starttime="20220327 14:53:51.054" endtime="20220327 14:53:54.189"/>
+</kw>
+<status status="PASS" starttime="20220327 14:53:51.053" endtime="20220327 14:53:54.189"/>
+</test>
+<status status="PASS" starttime="20220327 14:53:51.038" endtime="20220327 14:53:54.190"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
