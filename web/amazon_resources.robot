@@ -18,11 +18,10 @@ ${exchangeRate}         http://api.exchangeratesapi.io/v1/
 *** Keywords ***
 Test Start
     [Documentation]    Test Setup Keyword
-    Open Browser    url=https://www.amazon.com.br/                    browser=chrome
-    # Open Browser    url=http://www.google.com                    browser=chrome
-    # Input Text      ${googleSearchField}                         Amazon Brasil
-    # Press Keys      ${googleSearchField}                         RETURN
-    # Click Element   //a[@href="https://www.amazon.com.br/"]
+    Open Browser    url=http://www.google.com                    browser=chrome
+    Input Text      ${googleSearchField}                         Amazon Brasil
+    Press Keys      ${googleSearchField}                         RETURN
+    Click Element   //a[@href="https://www.amazon.com.br/"]
 
 Test End
     [Documentation]    Test Teardown Keyword
